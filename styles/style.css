@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 1px solid red;
+    box-sizing: border-box;
 }
 
 /* Banner Styles */
@@ -121,4 +122,22 @@
 
 .post-image {
     width: 50%;
+}
+
+/* Get My Updates Sectoin Styles */
+.subscription-container {
+    background-color: yellow;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+#email {
+
+}
+
+input[type='submit'] {
+    color:red;
 }
