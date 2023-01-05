@@ -105,5 +105,20 @@
 }
 
 .card-description {
-    
+
+}
+
+/* Posts Section Styles */
+.post {
+    display: flex;
+    width: 70%;
+    gap: 5%;
+}
+
+.post-content {
+    width: 45%;
+}
+
+.post-image {
+    width: 50%;
 }
