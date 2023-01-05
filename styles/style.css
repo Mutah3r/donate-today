@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Banner Styles */
 .banner {
     width: 100%;
     height: 100vh;
@@ -21,11 +22,13 @@
 .banner-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.banner-description {
+.description {
     max-width: 70%;
+    text-align: center;
 }
 
 .banner-btn-container {
@@ -37,4 +40,41 @@
 
 .btn {
     padding: 10px;
+}
+
+/* Donation Section Styles */
+
+.donation-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    text-align: center;
+}
+
+.select-donation-plan {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.select-donation-amount {
+    height: 80px;
+    width: 80px;
+    background-color: lightblue;
+}
+
+.selected-amount {
+    border: 2px solid red;
+}
+
+#custom-donation-amount {
+    border: none;
+    border-bottom: 1px solid black;
 }
