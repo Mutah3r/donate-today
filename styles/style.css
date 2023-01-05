@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 /* Banner Styles */
@@ -44,7 +45,7 @@
 
 /* Donation Section Styles */
 
-.donation-content {
+.section-content {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -58,6 +59,10 @@
 }
 
 .select-donation-plan {
+    background-color: yellow;
+}
+
+.card-holder {
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -77,4 +82,28 @@
 #custom-donation-amount {
     border: none;
     border-bottom: 1px solid black;
+}
+
+/* Donate Today Section Styles */
+.plan-card-holder {
+    background-color: yellow;
+}
+
+.card {
+    background-color: lightblue;
+    width: 30%;
+    min-width: 100px;
+    max-width: 350px;
+}
+
+.card-image {
+
+}
+
+.card-title {
+
+}
+
+.card-description {
+    
 }
