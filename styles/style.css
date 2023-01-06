@@ -1,7 +1,10 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
 }
 
@@ -18,7 +21,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+}
+
+.banner-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .banner-info {
@@ -28,9 +38,24 @@
     align-items: center;
 }
 
+.banner-description {
+    max-width: 70%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .description {
     max-width: 70%;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .banner-btn-container {
@@ -40,8 +65,28 @@
     flex-wrap: wrap;
 }
 
-.btn {
-    padding: 10px;
+.btn-primary {
+    margin-top: 30px;
+    padding: 15px 12px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffffd6;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    margin-top: 30px;
+    padding: 15px 12px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #707070;;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Donation Section Styles */
@@ -97,17 +142,11 @@
     max-width: 350px;
 }
 
-.card-image {
+.card-image {}
 
-}
+.card-title {}
 
-.card-title {
-
-}
-
-.card-description {
-
-}
+.card-description {}
 
 /* Posts Section Styles */
 .post-section-content {
@@ -118,6 +157,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .post {
     display: flex;
     width: 70%;
@@ -140,7 +180,7 @@
     width: 50%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 .post-image img {
@@ -151,6 +191,7 @@
 .post-image-1 {
     background-image: url('../images/donation2.jpg');
 }
+
 .post-image-2 {
     background-image: url('../images/donation2.jpg');
 }
@@ -165,12 +206,10 @@
     height: 30%;
 }
 
-#email {
-
-}
+#email {}
 
 input[type='submit'] {
-    color:red;
+    color: red;
 }
 
 /* Motivation Section Styles */
@@ -183,10 +222,6 @@ input[type='submit'] {
     background-color: blue;
 }
 
-.motivation-quote {
+.motivation-quote {}
 
-}
-
-.sub-motivation {
-
-}
+.sub-motivation {}
