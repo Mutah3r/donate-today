@@ -104,34 +104,67 @@ font-family: 'Poppins', sans-serif; */
     align-items: center;
 }
 
+.donation-section-container {
+    height: 150vh;
+}
+
 .content-header {
     text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
 }
 
 .select-donation-plan {
-    background-color: yellow;
+    /* background-color: yellow; */
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .card-holder {
     display: flex;
     justify-content: space-around;
     width: 70%;
+    gap: 5px;
     flex-wrap: wrap;
 }
 
 .select-donation-amount {
-    height: 80px;
-    width: 80px;
-    background-color: lightblue;
+    border: none;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .selected-amount {
-    border: 2px solid red;
+    width: 135px;
+    height: 123px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
 }
 
 #custom-donation-amount {
     border: none;
     border-bottom: 1px solid black;
+    width: 50%;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #B3B3B3;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
 }
 
 /* Donate Today Section Styles */
