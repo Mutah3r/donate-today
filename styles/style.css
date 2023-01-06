@@ -98,6 +98,7 @@ font-family: 'Poppins', sans-serif; */
 .section-content {
     width: 100%;
     height: unset;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
